@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  background-image: url(bg/2.gif);
-}
-
 .typing-demo {
   width: 35ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;

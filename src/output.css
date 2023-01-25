@@ -517,6 +517,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -528,6 +532,22 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\"\/bg\/1gi\"\)\] {
+  background-image: url("/bg/1gi");
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/bg\/1\.gif\'\)\] {
+  background-image: url('/bg/1.gif');
+}
+
+.bg-\[url\(\'\/bg\/2\.gif\'\)\] {
+  background-image: url('/bg/2.gif');
 }
 
 .bg-cover {
@@ -552,18 +572,9 @@ video {
   padding-top: 30%;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-header {
-  background-image: url(bg/2.gif);
 }
 
 .typing-demo {
@@ -593,11 +604,6 @@ header {
     padding-right: 10%;
   }
 
-  .sm1\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .sm1\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -605,11 +611,6 @@ header {
 }
 
 @media (min-width: 620px) {
-  .md1\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md1\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
