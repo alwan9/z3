@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 header {
-  background-image: url(/bg/2.gif);
+  background-image: url(bg/2.gif);
 }
 
 .typing-demo {

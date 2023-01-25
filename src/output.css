@@ -552,10 +552,6 @@ video {
   padding-top: 30%;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -567,7 +563,7 @@ video {
 }
 
 header {
-  background-image: url(/bg/2.gif);
+  background-image: url(bg/2.gif);
 }
 
 .typing-demo {
